@@ -1,6 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -38,7 +39,7 @@ a {
 
 .banner h1 {
   font-family: 'Lora';
-  font-size: 60px;
+  font-size: 58px;
   color: rgba(46, 46, 45, 0.8);
   margin: 0px auto;
 }
