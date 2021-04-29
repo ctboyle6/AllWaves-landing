@@ -1,0 +1,103 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Buttons */
+@import url('components/button.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url('../images/TBH_ideals.jpeg');
+  background-position: center;
+  object-fit: cover;
+  height: 360px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  }
+
+.banner h1 {
+  font-family: 'Lora';
+  font-size: 60px;
+  color: rgba(46, 46, 45, 0.8);
+  margin: 0px auto;
+}
+
+.banner h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+  color: rgba(46, 46, 45, 0.6);
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.container-main {
+  text-align: center;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.card-block {
+  color: rgba(46, 46, 45, 0.8);
+  box-shadow: 2px 2px 6px rgb(160, 160, 160);
+  padding: 12px 24px;
+  margin: 6px auto;
+}
+
+
+.container-footer {
+  margin: 0 auto;
+  background-color: #a0a0a0;
+  height: 200px;
+  text-align: center;
+}
+
+.container-footer > ul {
+  padding: 0px 20px;
+  font-size: 28px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container-footer > ul > li {
+  display: inline-block;
+}
+
+.container-footer i{
+  color: rgba(46, 46, 45, 0.8);
+  margin: 24px 24px;
+  transition: color 0.2s;
+}
+
+.container-footer i:hover {
+  color: white;
+  margin: 24px 24px;
+}
+
+.container-footer p {
+  color: rgba(46, 46, 45, 0.3);
+  font-size: 12px;
+}

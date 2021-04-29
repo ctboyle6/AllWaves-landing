@@ -1,0 +1,63 @@
+/* Your card CSS file */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-category {
+  margin-top: 40px;
+  background-image: url('https://source.unsplash.com/random');
+  padding: 60px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(160, 160, 160);
+  color: white;
+  text-align: center;
+}
+
+
+
+.card-product {
+  margin-top: 40px;
+  height: 120px;
+  box-shadow: 2px 2px 8px rgb(160, 160, 160);
+  display: flex;
+}
+
+.card-product img {
+  width: 120px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.card-product > div {
+  flex-grow: 1;
+  padding: 18px 12px;
+  font-size: 12px;
+  padding: 30px 12px;
+}
+
+
+
+.card-trip {
+  margin-top: 40px;
+  box-shadow: 2px 2px 8px rgb(160, 160, 160);
+  height: 300px;
+}
+
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip > div {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 12px;
+  padding: 12px 16px;
+  align-items: flex-end;
+}
+
