@@ -1,0 +1,9 @@
+.landscape-blur {
+  position: relative;
+  margin: 32px;
+  border: 1px solid;
+  height: 500px;
+  width: 280px;
+  border-radius: 32px;
+  backdrop-filter: blur(80px);
+}

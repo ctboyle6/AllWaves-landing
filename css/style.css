@@ -8,8 +8,10 @@
 /* Buttons */
 @import url('components/button.css');
 
-
 /* Utilities */
+@import url('components/utilities.css');
+
+
 body {
   margin: 0;
   font-family: Open Sans;
