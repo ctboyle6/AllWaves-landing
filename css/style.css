@@ -65,6 +65,7 @@ a {
 .card-block {
   color: rgba(46, 46, 45, 0.8);
   box-shadow: 2px 2px 6px rgb(160, 160, 160);
+  border: 1px solid #a0833b;
   padding: 12px 24px;
   margin: 6px auto;
 }
